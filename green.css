@@ -1,0 +1,56 @@
+
+
+.centrGrad{
+    text-align: center;
+   
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.centr{
+    text-align: center;
+}
+
+.centerImadge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+.backg{
+    background-color: rgb(161, 51, 0);
+    background-image: linear-gradient(to bottom, rgb(234, 96, 41), rgb(161, 51, 0));
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:100% 100%;
+}
+
+.corners {
+  vertical-align: middle;
+  border-radius: 15%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+}
+
+.ba{
+  background-color:  #692100;
+  background-image: linear-gradient(to bottom, #793A1E, #692100);
+}
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+
